@@ -31,5 +31,14 @@ public class Aplication {
         estudiante.notaExamenFinal = 20;
 
         System.out.println("El promedio final es: " + estudiante.calcularPromedio());
+
+
+        //Vamos a interectuar con el modificador de acceso private
+        Automovil automovil = new Automovil();
+        automovil.setMarca("BMW");
+        automovil.setModelo("335i");
+        automovil.setPrecio(42000.00);
+        automovil.imprimir();
+        //
     }
 }
